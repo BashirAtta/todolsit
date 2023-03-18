@@ -2,6 +2,9 @@
   "name": "todolist-v1",
   "version": "1.0.0",
   "main": "app.js",
+  "engines": {
+    "node": "14.17.5"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,9 +17,7 @@
     "lodash": "^4.17.21",
     "mongoose": "^7.0.1"
   },
-  "engines": {
-    "node": ">=14 <15"
-  },
+ 
   "devDependencies": {},
   "description": ""
 }
